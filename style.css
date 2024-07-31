@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/munnar-4769654_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/nithin-p-john-Rhc3WPr1AWE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/kimo-WX2xpcJK3q0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/vagamon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/gaviiiiiii.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+ h1{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 58px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+} 
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding:15px 10%;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 0, 0.275);
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav ul li a:hover{
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 8px ;
+    font-size: medium;
+    transition: 0.2s;
+    scale: 0;
+}
+@media(max-width:768px){
+    .btn{
+        margin-left: 37%;
+        margin-top: 10px;
+    }
+    .nav ul li a{
+  margin: -50px;
+        
+    }
+}
+@media(max-width:430px){
+    .btn{
+        margin-left: 37%;
+        margin-top: 10px;
+    }
+    .nav ul li a{
+        margin: -50px;
+              
+          }
+}
+@media(max-width:992px){
+    .btn{
+        margin-left: 37%;
+        margin-top: 10px;
+    }
+    .nav ul li a{
+        margin: -50px;
+              
+          }
+}
